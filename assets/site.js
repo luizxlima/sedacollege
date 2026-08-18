@@ -1,6 +1,6 @@
 (function(){
 /* favicon */
-var fav=document.createElement('link');fav.rel='icon';fav.href='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F97316"/><stop offset="1" stop-color="#FBBF24"/></linearGradient></defs><rect width="32" height="32" rx="7" fill="#160F28"/><text x="16" y="23" font-size="19" font-family="Arial,sans-serif" font-weight="800" fill="url(#g)" text-anchor="middle">S</text></svg>');document.head.appendChild(fav);
+var fav=document.createElement('link');fav.rel='icon';fav.href='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E28E26"/><stop offset="1" stop-color="#FFCB05"/></linearGradient></defs><rect width="32" height="32" rx="7" fill="#023A49"/><text x="16" y="23" font-size="19" font-family="Montserrat,Arial,sans-serif" font-weight="800" fill="url(#g)" text-anchor="middle">S</text></svg>');document.head.appendChild(fav);
 /* Google tag (gtag.js) */
 var gs=document.createElement('script');gs.async=true;gs.src='https://www.googletagmanager.com/gtag/js?id=AW-17482577142';document.head.appendChild(gs);
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','AW-17482577142');
@@ -43,7 +43,7 @@ var year=new Date().getFullYear();
 var footer=''+
 '<footer class="site-foot"><div class="wrap"><div class="cols">'+
 '<div><div class="brandline">SEDA <em>College</em></div><div class="tagline">Live Your Dream</div>'+
-'<p><strong style="color:#F3EFFA">SEDA College</strong>, delivering exceptional education, cultural activities, and accommodation partnerships across Dublin, Cork, Limerick, and Galway since 2008.</p>'+
+'<p><strong style="color:#F5F5F5">SEDA College</strong>, delivering exceptional education, cultural activities, and accommodation partnerships across Dublin, Cork, Limerick, and Galway since 2008.</p>'+
 '<ul style="margin-top:14px"><li>\uD83D\uDCDE +353 1 473 4915</li><li>\u2709\uFE0F <a href="mailto:info@seda.ie">info@seda.ie</a></li><li>\uD83D\uDCCD Dublin \u00B7 Cork \u00B7 Limerick \u00B7 Galway</li></ul></div>'+
 '<div><h4>Programs</h4><ul><li><a href="./general-english.html">General English</a></li><li><a href="./certtesol.html">Teacher Training</a></li><li><a href="./trinity-ise.html">Trinity ISE</a></li><li><a href="./ielts.html">IELTS</a></li><li><a href="./tie.html">TIE</a></li><li><a href="./internship.html">Internship</a></li></ul></div>'+
 '<div><h4>Student Life</h4><ul><li><a href="./first-day-induction.html">First Day Induction</a></li><li><a href="./accommodation.html">Accommodation</a></li><li><a href="./health-insurance.html">Health Insurance</a></li><li><a href="./myseda.html">MySEDA</a></li><li><a href="./social-activities.html">Social Activities</a></li></ul></div>'+
