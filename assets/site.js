@@ -42,7 +42,7 @@ var h=document.getElementById('site-header');if(h){h.outerHTML=header;}
 var year=new Date().getFullYear();
 var footer=''+
 '<footer class="site-foot"><div class="wrap"><div class="cols">'+
-'<div><div class="brandline">SEDA <em>College</em></div><div class="tagline">Live Your Dream</div>'+
+'<div><img src="./assets/seda_logo_horizontal_branca.png" alt="SEDA College" class="footer-logo"><div class="tagline">Live Your Dream</div>'+
 '<p><strong style="color:#F5F5F5">SEDA College</strong>, delivering exceptional education, cultural activities, and accommodation partnerships across Dublin, Cork, Limerick, and Galway since 2008.</p>'+
 '<ul style="margin-top:14px"><li>\uD83D\uDCDE +353 1 473 4915</li><li>\u2709\uFE0F <a href="mailto:info@seda.ie">info@seda.ie</a></li><li>\uD83D\uDCCD Dublin \u00B7 Cork \u00B7 Limerick \u00B7 Galway</li></ul></div>'+
 '<div><h4>Programs</h4><ul><li><a href="./general-english.html">General English</a></li><li><a href="./certtesol.html">Teacher Training</a></li><li><a href="./trinity-ise.html">Trinity ISE</a></li><li><a href="./ielts.html">IELTS</a></li><li><a href="./tie.html">TIE</a></li><li><a href="./internship.html">Internship</a></li></ul></div>'+
