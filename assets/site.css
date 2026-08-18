@@ -18,7 +18,7 @@ h1,h2,h3,h4{font-family:var(--display);color:var(--ink);line-height:1.12;font-we
 .topbar .socials a{margin-left:12px;color:var(--muted);font-weight:400}
 /* header — barra branca como no layout original */
 .site-head{background:#FFFFFF;position:sticky;top:0;z-index:60;box-shadow:0 1px 0 rgba(0,0,0,.06)}
-.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:4px;padding-bottom:4px}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:0;padding-bottom:0}
 .brand{display:flex;align-items:center;text-decoration:none}
 .brand:hover{text-decoration:none}
 .brand-logo{height:104px;width:auto;display:block;object-fit:contain}
