@@ -19,10 +19,10 @@ h1,h2,h3,h4{font-family:var(--display);color:var(--ink);line-height:1.12;font-we
 /* header — barra branca como no layout original */
 .site-head{background:#FFFFFF;position:sticky;top:0;z-index:60;box-shadow:0 1px 0 rgba(0,0,0,.06)}
 .site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:13px;padding-bottom:13px}
-.brand{font-family:var(--display);font-weight:800;font-size:22px;color:#023A49;letter-spacing:.2px;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;text-decoration:none}
 .brand:hover{text-decoration:none}
-.brand .mark{width:12px;height:26px;background:var(--grad-btn);display:inline-block;border-radius:3px}
-.brand em{font-style:normal;background:var(--grad-btn);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand-logo{height:40px;width:auto;display:block;object-fit:contain}
+
 nav.mainnav>ul{display:flex;list-style:none;gap:2px;align-items:center}
 nav.mainnav a{display:block;padding:9px 12px;color:#023A49;font-weight:600;font-size:15px;border-radius:10px}
 nav.mainnav a:hover{background:rgba(2,58,73,.08);text-decoration:none;color:#023A49}

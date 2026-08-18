@@ -9,7 +9,7 @@ var header=''+
 '<div class="topbar"><div class="wrap"><div>Call: <a href="tel:+35314734915">+353 1 473 4915</a> &nbsp;\u00B7&nbsp; <a href="mailto:info@seda.ie">info@seda.ie</a></div>'+
 '<div class="socials"><a href="https://www.facebook.com/SEDACollege" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/seda_college" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/user/sedacollege" target="_blank" rel="noopener">YouTube</a><a href="https://www.linkedin.com/school/seda-college/" target="_blank" rel="noopener">LinkedIn</a></div></div></div>'+
 '<header class="site-head"><div class="wrap">'+
-'<a class="brand" href="./index.html"><span class="mark"></span>SEDA <em>College</em></a>'+
+'<a class="brand" href="./index.html"><img src="./assets/seda_logo_horizontal.png" alt="SEDA College" class="brand-logo"></a>'+
 '<input type="checkbox" id="nav-toggle" aria-hidden="true">'+
 '<nav class="mainnav" aria-label="Main"><ul>'+
 '<li class="has-sub"><a data-page="courses" href="./general-english.html">Programs</a><ul class="sub">'+
